@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    background: #1D1A1A;
+    height: 10vh;
+}
+/*LOGO START*/
+.leftIcons{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 15px;
+    padding-left: 10px;
+    width: 15vw;
+}
+/*LOGO END*/
+/*NAVIGATION BUTTONS START*/
+.navButtons{
+    margin: 0 10px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.navButtons a{
+    text-decoration: none;
+    display: inline-flex;
+    width: 12vw;
+    max-width: 100px;
+    height:10vh;
+    align-items: center;
+    justify-content: center;
+    row-gap: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color:white;
+    background-image: linear-gradient(#1d1a1a 50%, #2AC30D 50%);
+    background-size: 100% 200%;
+    background-position: 0% 0%;
+    transition: background-image 2s;
+}
+.navButtons a:hover{
+    background-image: linear-gradient(#2e2929 50%, #2AC30D 50%);
+}
+.navButtons a:nth-child(1){
+    background-position: 0% 10%;
+}
+/*NAVIGATION BUTTONS END*/
+/*SIGN UP START*/
+.signUp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signup{
+    height: 5vh;
+    width: 15vh;
+    background: #2AC30D;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 10px;
+    color:white;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*SIGN UP END*/
+/*CART START*/
+.cart{
+}
+.cart a{
+    text-decoration: none;
+    display: inline-flex;
+    width: 100px;
+    height:10vh;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    color:white;
+}
+/*CART END*/
