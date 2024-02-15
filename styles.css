@@ -65,18 +65,20 @@ nav{
 .signup{
     height: 5vh;
     width: 15vh;
-    background: #4af028;
+    background-color: #4af028;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-radius: 10px;
     color:white;
     border: none;
     text-decoration: none;
     cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+.signup:hover{
+    background-color: green;
 }
 /*SIGN UP END*/
 /*CART START*/
-.cart{
-}
 .cart a{
     text-decoration: none;
     display: inline-flex;
@@ -139,6 +141,45 @@ nav{
     background-color: green;
 }  
 .waves{
-    margin-top: 10vh;
+    margin-top: 15vh;
 }
 /*HERO END*/
+/*We Provide START*/
+.weProvide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10vh;
+    height: 40vh;
+}
+.header{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.fa-solid{
+    font-size: 60px;
+    color: #2AC30D;
+}
+.service{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 300px;
+    gap: 1vh;
+}
+.service h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+}
+.service p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: grey;
+}
