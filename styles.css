@@ -164,7 +164,6 @@ nav{
 /*HERO END*/
 /*We Provide START*/
 .weProvide{
-    padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -202,9 +201,9 @@ nav{
 }
 @media (min-width: 768px) {
     .service {
-      width: 80px;
-      min-width: 80px;
-      flex-basis: 80px;
+      width: 100px;
+      min-width: 100px;
+      flex-basis: 100px;
     }
 }
   
